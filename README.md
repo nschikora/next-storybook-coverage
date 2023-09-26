@@ -1,4 +1,4 @@
-In this repository I set up nextjs, storybook, storybook test runner and storybook addon coverage according to their respective docs.
+In this repository I set up nextjs, storybook, storybook test runner and storybook addon coverage according to their respective docs. Removing `"@storybook/addon-coverage"` from the addons array in `.storybook/main.ts` will fix the bug but obviously no coverage can be reported.
 
 To reproduce:
 
@@ -92,5 +92,3 @@ All files |      50 |      100 |       0 |      50 |
 ----------|---------|----------|---------|---------|-------------------
 ➜  next-storybook-coverage git:(main) ✗
 ```
-
-Removing `"@storybook/addon-coverage"` from the addons array in `.storybook/main.ts` will fix the bug but obviously no coverage can be reported.
